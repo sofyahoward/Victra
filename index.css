@@ -1,0 +1,113 @@
+body{
+   margin:0;
+   font-family: 'Nanum Gothic', sans-serif;
+}
+.aboveNav{
+    background-color: black;
+    border-bottom: 8px #da332e solid;
+    display: flex;
+
+}
+.rightSide{
+    display: flex;
+    margin-left: auto;
+    margin-right: 5%;   
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: whitesmoke;
+}
+.textAboveNav{
+    font-size: 14px;
+}
+.rightBtn{
+    margin-left: 20px; 
+
+}
+a.btn.btn-primary{
+    background-color:#da332e !important;
+    border: none !important;
+    margin-top: 2%;
+    width: fit-content;
+}
+a.btn.btn-primary:hover{
+    background-color: darkred !important;
+}
+.logoArea{
+    height:10%;
+    margin-left: 6%
+}
+.responsive{
+    width: 90%;
+    height: 100%;
+}
+.bg-light{
+    background-color: #fff !important;
+}
+.navbarContainer{
+    margin-left: 7%;
+    font-size: 20px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #da332e !important;
+
+}
+.navbar-light .navbar-nav .nav-link{
+    color: black !important;
+    font-weight: bolder;
+}
+
+/* CAROUSEL */
+.carouselImage{
+    background-size: cover ! important;
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align:center;
+    margin:auto;
+    padding:0;
+    /* height: 800px;
+    width: 90%; */
+}
+
+/* POSTS CONTAINER */
+.btn{
+    background-color: #da332e;
+    border: none;
+    width: 30%;
+    margin-left: 34%;
+    margin-top: 5%;
+}
+.btn:hover{
+    background-color: darkred !important;
+}
+#PostsContainer{
+    background-color: white;
+    height: fit-content;
+}
+#postsGoHere{
+    margin-top: 10%;
+    margin-left: 12%;
+
+}
+.card {
+    display:inline-block;
+    margin: 2%;
+}
+
+/* FOOTER STYLES */
+footer{
+   background-color: #252525;
+   border-top: 8px #da332e solid;
+
+   color: white;
+}
+.column{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    color: white !important;
+    list-style-type: none;
+}
+a { color: inherit; } 
+
+.copyright{
+    margin-top: 15%;
+}
